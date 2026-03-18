@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "TaskSmithApp",
+    "slug": "TaskSmithApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "tasksmithapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.tasksmith.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "firebase": {
+        "apiKey": "AIzaSyAiUX9ndU1JbKu-wN9PK_yCyMVZwI1M1DY",
+        "authDomain": "task-smith.firebaseapp.com",
+        "projectId": "task-smith",
+        "storageBucket": "task-smith.firebasestorage.app",
+        "messagingSenderId": "1028364734608",
+        "appId": "1:1028364734608:web:97cfe41a6608e0c8308815"
+      }
+    }
+  }
+}
